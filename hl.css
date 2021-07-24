@@ -1,0 +1,53 @@
+.header{
+    background-color: #101010;
+}
+
+.logo-container{
+    display: block;
+    /* display: inline-block; */
+}
+
+.inner-header{
+    vertical-align: middle;
+    display: inline-block;
+    color: aliceblue;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.navigation{
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 50px 100px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+.footer{
+    text-align: center;
+
+    
+}
+.my-photo{
+    float: left;
+}
